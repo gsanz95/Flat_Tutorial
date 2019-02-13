@@ -1,0 +1,18 @@
+namespace Client;
+
+attribute "priority";
+
+struct Vec3 {
+  x:float;
+  y:float;
+  z:float;
+}
+
+table Client {
+  id:ulong;
+  pos:Vec3;
+  msg:string;
+}
+
+root_type Client;
+
