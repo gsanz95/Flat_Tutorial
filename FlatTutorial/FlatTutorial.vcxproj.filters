@@ -18,12 +18,24 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ClientListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FlatTutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPListener.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
